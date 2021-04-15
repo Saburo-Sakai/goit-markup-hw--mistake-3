@@ -8,9 +8,23 @@
   --grey-black: rgba(47, 48, 58, 1);
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+container {
+  width: 1600px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--black-bold)
+  color: var(--black-bold);
 }
 
 .logo-p1 {
@@ -30,50 +44,48 @@ body {
 
 .nav-menu {
   color: var(--black-bold);
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .link {
   color: var(--black-bold);
-  cursor:pointer;
+  cursor: pointer;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
 
 .nav-menu .link.current {
-color: var(--ultramarine-logo);
+  color: var(--ultramarine-logo);
 }
 
 .nav-menu a:hover {
-color: var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
-
-
 
 .tel-mail-1 {
   color: var(--grey-limpid);
   font-weight: 500;
-  cursor:pointer;
+  cursor: pointer;
   font-size: 14px;
   line-height: 1.17;
 }
 
 .tel-mail-1:hover,
-.tel-mail-1:focus{
-  color:var(--ultramarine-logo);
+.tel-mail-1:focus {
+  color: var(--ultramarine-logo);
 }
 
 .mail-to {
   color: var(--grey-limpid);
-   font-weight: 500;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
 
 .mail-to:focus,
 .mail-to:hover {
-  color: var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
 
 .tel-mail-2 {
@@ -83,8 +95,8 @@ color: var(--ultramarine-logo)
 }
 
 .tel-mail-2:hover,
-.tel-mail-2:focus{
-  color:var(--ultramarine-logo)
+.tel-mail-2:focus {
+  color: var(--ultramarine-logo);
 }
 
 .main-title {
@@ -111,33 +123,32 @@ color: var(--ultramarine-logo)
   font-weight: 700;
 }
 
-
 .button {
   background-color: var(--ultramarine-logo);
   color: var(--grey-white);
   font-size: 16px;
   line-height: 1.87;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .traits {
-color: var(--black-bold);
-font-weight: 700;
-font-size: 14px;
-line-height: 1,17;
+  color: var(--black-bold);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1, 17;
 }
 
 .under-traits {
-color: var(--grey-limpid);
-font-size: 14px;
-line-height: 1,7;
+  color: var(--grey-limpid);
+  font-size: 14px;
+  line-height: 1, 7;
 }
 
 .what-we-do {
   color: var(--black-bold);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1,17;
+  line-height: 1, 17;
 }
 
 .team-section {
@@ -148,24 +159,24 @@ line-height: 1,7;
   color: var(--black-bold);
   font-weight: 500;
   font-size: 16px;
-  line-height: 1,17;
+  line-height: 1, 17;
 }
 
 .position {
   color: var(--grey-limpid);
   font-size: 16px;
-  line-height: 1,7;
+  line-height: 1, 7;
 }
 
 .address {
   color: var(--white);
   font-size: 14px;
-  line-height: 1,7;
+  line-height: 1, 7;
 }
 
 .address:hover,
 .address:focus {
-  color:var(--ultramarine-logo)
+  color: var(--ultramarine-logo);
 }
 
 .button-portfolio button {
@@ -174,24 +185,23 @@ line-height: 1,7;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  cursor:pointer;
+  cursor: pointer;
 }
 
-.button-portfolio button:hover{
+.button-portfolio button:hover {
   background-color: var(--ultramarine-logo);
   color: var(--white);
 }
 
-
-.projects h2 { 
+.projects h2 {
   color: var(--black-bold);
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 2;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
 }
 
 .projects p {
-  color: var(--grey-limpid); 
+  color: var(--grey-limpid);
   font-size: 16px;
-  line-height: 1,9;
+  line-height: 1, 9;
 }
